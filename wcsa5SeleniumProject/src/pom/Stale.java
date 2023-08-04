@@ -13,7 +13,7 @@ public class Stale {
 	    WebDriver	driver=new ChromeDriver();
 	    driver.manage().window().maximize();
 	    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-	    driver.get("http://127.0.0.1/login.do;jsessionid=577jig3mohf38");
+	    driver.get("http://127.0.0.1/login.do");
 	    
 	    WebElement usnTB = driver.findElement(By.name("username"));
 	    //usnTB.sendKeys("admin");

@@ -3,12 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNGAnnotations_flags.Flag7">
+      <class name="testNGpack3.TestCase">
         <methods>
-          <include name="createUserMethod"/>
+          <include name="tearDown"/>
           <include name="loginMethod"/>
+          <include name="setUp"/>
+          <include name="logoutMethod"/>
+          <include name="createUser"/>
         </methods>
-      </class> <!-- testNGAnnotations_flags.Flag7 -->
+      </class> <!-- testNGpack3.TestCase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
